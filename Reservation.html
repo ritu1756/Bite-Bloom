@@ -29,7 +29,7 @@
       <nav class="max-w-full  px-6 py-5 flex justify-between bg-black/80">
         <!-- logo  -->
       
-        <a href="index.html" class="text-white">
+        <a href="Reservation.html" class="text-white">
               <img src="images/logo.png" alt="" class="w-[300px] rounded-[10px] h-[200px]  ">
           <!-- <h2 class="text-4xl font-bold tracking-wide items-center justify-between m-auto pl-[20px]">
             Bite <span class="text-[#d4a72c]">&</span>Bloom
@@ -68,6 +68,128 @@
       </nav>
       
     </header>
+    <section class="py-20 px-6">
+            <div class="max-w-full mx-auto  gap-10  ">
+                <div class="bg-[#071d1d] text-white rounded-2xl p-8 md:p-10  ">
+                    <p class="text-[#d4a72c] uppercase tracking-[3px] text-sm font-semibold ">Book With Us</p>
+                    <h2 class="text-4xl font-bold mt-3">Let's Make Your Evening Special</h2>
+                    <p class="text-gray-300 leading-7 mt-6">Whether it is a family dinner, date night or celebration, we are readybto make your experience memorable.</p>
+
+
+                     <!-- information -->
+                     <div class="mt-10 space-y-7">
+                        <div class="flex gap-4">
+                            <div class="text-2xl">
+                                <i class="fa-solid fa-location-dot"></i>
+
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-bold">Location</h3>
+                                <p class="text-gray-400 text-sm mt-1">Jaipur, Rajasthan</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="text-2xl">
+                                <i class="fa-solid fa-clock"></i>
+
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-bold">Opening Hours</h3>
+                                <p class="text-gray-400 text-sm mt-1">Monday-Sunday</p>
+                                <p class="text-[#d4a72c] text-sm mt-1">11:00 AM - 11:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="text-2xl">
+                                <i class="fa-solid fa-phone"></i>
+
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-bold">Call Us</h3>
+                                <a href="" class="text-gray-400 text-sm mt-1 block hover:text-[#d4a72c]">+91 9876543210</a>
+                            </div>
+                        </div>
+                     </div>
+
+                </div>
+            </div>
+
+            <!-- form -->
+             <div class="bg-white rounded-2xl p-7 md:p-10 shadow-lg">
+                <header class="mb-8">
+                    <h2 class="text-3xl md:text-4xl font-bold">Reservation Details</h2>
+                    <p class="text-gray-500 mt-2">Please fill in your details to reserve a table.</p>
+                </header>
+                <form class="space-y-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                        <div>
+                            <label for="Name" class="block text-sm font-semibold mb-2">Full Name </label>
+                            <input type="text" placeholder="Enter your name" class="w-full border border-gray-300 rounded-lg px-4 py-3">
+                        </div>
+
+                         <div>
+                            <label for="phone" class="block text-sm font-semibold mb-2">Phone Number</label>
+                            <input type="tel" placeholder="+91 XXXXX XXXXX" class="w-full border border-gray-300 rounded-lg px-4 py-3">
+                        </div>
+                         <div>
+                            <label for="Email" class="block text-sm font-semibold mb-2">Email Address </label>
+                            <input type="email" placeholder="you@example.com" class="w-full border border-gray-300 rounded-lg px-4 py-3">
+
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                            <div>
+                                <label for="date" class="block text-sm font-sembold mb-2">Date</label>
+                                <input type="date" class="w-full border border-gray-300 rounded-lg px-4 py-3">
+                            </div>
+                             <div>
+                                <label for="time" class="block text-sm font-sembold mb-2">Time</label>
+                                <input type="time" class="w-full border border-gray-300 rounded-lg px-4 py-3">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="guests" class="block text-sm font-semibold mb-2">Number of Guests</label>
+                            <select name="guests" id="guests" class="w-full border border-gray-300 rounded-lg px-4 py-3 bg-white">
+                                <option value="1">1 Person</option>
+                                <option value="2">2 Person</option>
+                                <option value="3">3 Person</option>
+                                <option value="4">4 Person</option>
+                                <option value="5">5 Person</option>
+                                <option value="6">6 Person</option>
+                                <option value="7">7 Person</option>
+                                <option value="7+">7+ Person</option>
+                            </select>
+                        </div>
+                        <!-- seat -->
+                         <div>
+                            <div class="text-sm font-semibold mb-3">
+                                Seating Prefrence </div>
+                                <div class="grid grid-cols-1 sm: grid-cols-3 gap-3">
+                            <label for="" class="border border-gray-300 rounded-lg p-3 ">
+                                <input type="radio" name="seating"> Indoor
+                            </label>
+                             <label for="" class="border border-gray-300 rounded-lg p-3 ">
+                                <input type="radio" name="seating"> Outdoor
+                            </label>
+                             <label for="" class="border border-gray-300 rounded-lg p-3 ">
+                                <input type="radio" name="seating"> Any Table
+                            </label>
+
+                         </div>
+                         
+
+                         </div>
+                         <div>
+                            <label for="message" class="block text-sm font-semibold mb-2">Special Request</label>
+                            <textarea name="message" id="message" placeholder="Birthday, Anniversary, dietary request" class="w-full border border-gray-300 rounded-lg px-4 py-3"></textarea>
+                         </div>
+
+
+                    </div>
+
+                </form>
+             </div>
+        </section>
+
      <!-- <FOOTER></FOOTER> -->
      
       <footer class="bg-[#071d1d] text-gray-300 ">
